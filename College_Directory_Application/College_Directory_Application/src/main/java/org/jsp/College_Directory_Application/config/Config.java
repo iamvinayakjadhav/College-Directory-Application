@@ -15,8 +15,8 @@ public class Config {
 		
 		jmsi.setHost("smtp.gmail.com");
 		jmsi.setPort(587);
-		jmsi.setUsername("demodezouza@gmail.com");
-		jmsi.setPassword("bqhl wtlj fgio lfzf");
+		jmsi.setUsername("yourmailid@gmail.com");
+		jmsi.setPassword("***-***-***");//password for your mail id
 		
 		Properties props = jmsi.getJavaMailProperties();
 		props.put("mail.transport.protocol","smtp");
